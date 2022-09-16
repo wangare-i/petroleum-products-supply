@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 06, 2018 at 03:45 PM
+-- Generation Time: Apr 06, 2022 at 03:45 PM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -65,11 +65,10 @@ CREATE TABLE `consumer_detail` (
 --
 
 INSERT INTO `consumer_detail` (`cid`, `did`, `pwd`, `name`, `address`, `city`, `pin`, `m_no`, `e_id`, `reg_date`, `status`) VALUES
-(2, 1, '111111', 'Raj Pravinbhai Zalavadiya', '201,Sai Darshan, Nana Varachha', 'Surat', 394525, 8787954652, 'raj@outlook.com', '2018-02-07', 'Deactive'),
-(3, 2, '333333', 'Biren V. Gadhiya', 'B12, Khodiyar row house, Katargam', 'Ahmedabad', 366666, 7877777777, 'bg@outlook.com', '2018-02-08', 'Active'),
-(5, 1, '555555', 'Jenish Kishorbhai Mangukiya', 'D2/304, Gangotri rec., Sudama chowk, Mota Varachha', 'Surat', 394101, 9904436106, 'mjenish8@gmail.com', '2018-02-09', 'Active'),
-(6, 1, NULL, 'Krunal Dineshbhai Lukhi', '21, White House, Panvel point road', 'Surat', 394101, 9876543210, 'kd_likhi@gmail.com', NULL, 'Not Registered'),
-(225, 1, '225225', 'Ravi K. Kanpara', '22', 'Surat', 388554, 8565655521, 'ravi@gmail.com', '2018-02-21', 'Active');
+(3, 2, '333333', 'john', 'B12, Katoloni', 'Machakos', 366666, 7877777777, 'bg@outlook.com', '2022-02-08', 'Active'),
+(5, 1, '555555', 'Jane', 'D2, wote', 'Makueni', 394101, 9904436106, 'mjane@gmail.com', '2022-02-09', 'Active'),
+(6, 9, 'marymutheu', 'mary mutheu thomas', '27, tala', 'Machakos',  30200, 1112345671, 'marymutheu@gmail.com', '2022-07-09', 'Active'),
+(225, 1, '225225', 'RaYNE', '22', 'machakos', 388554, 8565655521, 'rayne@gmail.com', '2022-02-22', 'Active');
 
 -- --------------------------------------------------------
 
@@ -95,10 +94,10 @@ CREATE TABLE `distributor_detail` (
 --
 
 INSERT INTO `distributor_detail` (`did`, `pwd`, `name`, `address`, `city`, `pin`, `m_no`, `e_id`, `status`, `proof`) VALUES
-(1, '111111', 'Jai Ganesh Agency', 'D12, GIDC-Kapodra', 'Surat', 384511, 8200703812, 'jganesh@gmail.com', 'Active', 'distributor/proof/1.jpg'),
-(2, '222222', 'Gitanjali PVT LTD', '12, Amazon plaza, Ring road', 'Ahmedabad', 355002, 8547856321, 'gpvtltd@hotmail.com', 'Active', 'distributor/proof/2.jpg'),
-(9, '111111', 'Nandan LTD', '12, Birla Mart, Behind Maruti Chowk', 'Bhavnagar', 555656, 7898765421, 'nan@ymail.com', 'Active', 'distributor/proof/9.jpg'),
-(10, '333333', 'Tapovan Group', 'A55, JZ Shopping Mart, LH road', 'Vadodara', 366444, 9875452121, 'tapo@gmail.com', 'Deactive', 'distributor/proof/10.png');
+(1, '111111', 'Joy Agency', 'D12,', 'Machakos', 384511, 8200703812, 'joy@gmail.com', 'Active', 'distributor/proof/1.jpg'),
+(2, '222222', 'watu PVT LTD', '12, Amazon plaza,', 'Machakos', 355002, 8547856321, 'watupvtltd@hotmail.com', 'Active', 'distributor/proof/2.jpg'),
+(9, '111111', 'Nandi LTD', '12,', 'Machakos', 555656, 7898765421, 'nandi@ymail.com', 'Active', 'distributor/proof/9.jpg');
+
 
 -- --------------------------------------------------------
 
