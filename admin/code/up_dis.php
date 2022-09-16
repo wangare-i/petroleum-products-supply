@@ -30,21 +30,21 @@ if(isset($_GET['did']) and isset($_SESSION['aid']))
 						<label for="ct" class="col-sm-2 col-form-label">City</label>
 						<div class="col-sm-4">
 							<select id="ct" name="ct" class="form-control" required>
-								<option value="Ahmedabad">Ahmedabad</option>
-								<option value="Surat">Surat</option>
-								<option value="Vadodara">Vadodara</option>
-								<option value="Bhavnagar">Bhavnagar</option>
+								<option value="Machakos">Machakos</option>
+								<option value="Makueni">Makueni</option>
+								<option value="Kitui">Kitui</option>
+								<option value="Tala">Tala</option>
 							</select>
 							<script>
 							//change city value based on table data
 							$(document).ready(function(){
-								if("'.$r['city'].'"==="Ahmedabad")
+								if("'.$r['city'].'"==="Machakos")
 									document.getElementById("ct").selectedIndex = 0;
-								else if("'.$r['city'].'"==="Surat")
+								else if("'.$r['city'].'"==="Makueni")
 									document.getElementById("ct").selectedIndex = 1;
-								else if("'.$r['city'].'"==="Vadodara")
+								else if("'.$r['city'].'"==="Kitui")
 									document.getElementById("ct").selectedIndex = 2;
-								else if("'.$r['city'].'"==="Bhavnagar")
+								else if("'.$r['city'].'"==="Tala")
 									document.getElementById("ct").selectedIndex = 3;
 							});
 							</script>

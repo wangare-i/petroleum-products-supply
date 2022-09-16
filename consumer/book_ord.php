@@ -41,22 +41,48 @@ if(isset($_SESSION['cid']))
 							<p><i class="glyphicon glyphicon-chevron-right"></i> Current price for single gas-cylinder is <span class="text-success">ksh4750.</span></p>
 							<p><i class="glyphicon glyphicon-chevron-right"></i> Order cannot be canceled once you place order.</p>
 							<p><i class="glyphicon glyphicon-chevron-right"></i> Prices may be change as per government rules.</p>
-							<p><i class="glyphicon glyphicon-chevron-right"></i> You cannot place order for more than 1000 liters of petroleum or three gas cylinder.</p>
+							<p><i class="glyphicon glyphicon-chevron-right"></i> You cannot place order for more than 10000 liters of petroleum or 15 gas cylinder.</p>
 							<p><i class="glyphicon glyphicon-chevron-right"></i> Once your order will deliver then and then you can place order for another refill.</p>
 							<p><i class="glyphicon glyphicon-chevron-right"></i> Order will be delivered to registered address.</p>
 							<p><i class="glyphicon glyphicon-chevron-right"></i> Order status update will be drop via SMS(Linked mobile no.) & Email(Linked email address).</p>
 							<p><i class="glyphicon glyphicon-chevron-right"></i> Order will be delivered within a week, If not then you can write complain to us.</p>
 							<p><i class="glyphicon glyphicon-chevron-right"></i> Product delivery is strictly on first come first served basis.</p>
-						</div>
-					</div>
-				
-					<div class="form-group">
+
+							<div class="form-group">
 						<div class="checkbox">
 							<label>
 								<input id="co_cb" onChange="return chk(this);" type="checkbox" name="agree" value="agree"/> Agree with the terms and conditions
 							</label>
 						</div>
 					</div>
+					<div class=" d-flex">
+					<div style="height:600px;" class=" col-7  p-4">
+			 
+						 <div class="input-group mb-3"><h3>Items</h3> 
+						  <input type="text" class="ms-4 form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1" autofocus>
+						  <span class="input-group-text" id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
+					   
+					  
+						</div>
+						<div class="js-products d-flex" style=" flex-wrap:wrap;height: 90%;"> 
+						<!--card-->
+						  <div class="card m-2 border-0" style="min-width:200px; max-width:200px;">
+						  <a href="#">
+							 <img src="assets/img/tips/engine oil.png" class="w-100 rounded border">
+						  </a>
+							 <div class="p-2" style="font-size:10px">
+							   <div class="text-muted">ENGINE OIL</div>
+							   <div class=""><b>$100.0</b></div> 
+							 </div>
+						 </div>
+						 <!--end card-->
+
+						</div>
+				
+					</div>
+					
+				
+					
 				
 					<div class="form-group">
 						<button type="submit" id="submit" class="btn btn-warning" disabled>Confirm Order</button>
